@@ -1,0 +1,25 @@
+{
+  "name": "joshadamboyd/hudson",
+  "description": "Hudson Charity",
+  "keywords": [
+    "hudson",
+    "charity",
+    "wordpress",
+    "theme"
+  ],
+  "homepage": "https://github.com/joshadamboyd/hudson",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Josh Boyd",
+      "email": "joshadamboyd@mac.com",
+      "homepage": "http://joshadamboyd.com"
+    },
+    {
+      "name": "David Freerksen",
+      "email": "dfreerksen@gmail.com",
+      "homepage": "http://davidfreerksen.com"
+    }
+  ],
+  "type": "library"
+}
