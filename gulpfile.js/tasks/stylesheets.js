@@ -5,7 +5,7 @@ var gulp         = require('gulp'),
 
 var config = require('../../gulpconfig').stylesheets
 
-gulp.task('stylesheets', function() {
+gulp.task('stylesheets-style', function() {
   return gulp.src(config.src)
     .pipe(plugins.sourcemaps.init())
     .pipe(plugins.sass(config.libsass))
@@ -15,3 +15,5 @@ gulp.task('stylesheets', function() {
     .pipe(plugins.concat('style.css'))
     .pipe(gulp.dest(config.dest));
 });
+
+gulp.task('stylesheets', ['stylesheets-style']);

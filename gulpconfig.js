@@ -60,6 +60,7 @@ module.exports = {
       src + 'assets/javascripts/scripts.js'
     ],
     dest: build + 'js/',
+    name: 'scripts.js',
     minify: {
       src: [build + 'js/**/*.js'],
       uglify: {},
@@ -74,10 +75,11 @@ module.exports = {
       src + 'assets/stylesheets/styles.scss'
     ],
     dest: build,
-    compiler: 'libsass',
+    name: 'style.css',
     autoprefixer: {
       browsers: ['> 3%', 'last 2 versions', 'ie 9', 'ios 6', 'android 4']
     },
+    compiler: 'libsass',
     minify: {
       keepSpecialComments: 1,
       roundingPrecision: 3
