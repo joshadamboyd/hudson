@@ -30,12 +30,7 @@
     "build"
   ],
   "devDependencies": {
-    "meyer-reset": "*",
     "normalize.css": "^3.0.3",
-    "scut": "^1.2.0",
-    "html5-history-api": "^4.2.1",
-    "spin.js": "^2.3.1",
-    "wp-ajax-page-loader": "^0.1.1",
     "modernizer": "~2.8.2",
     "font-awesome": "~4.2.0",
     "bootstrap-sass": "~3.3.5"

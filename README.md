@@ -46,7 +46,15 @@ Symlink the generated `build` directory to your `wp-content/themes` directory fo
 
 ### Development
 
-TODO
+```
+gulp
+```
+
+or
+
+```
+gulp build
+```
 
 ## Contributing
 
