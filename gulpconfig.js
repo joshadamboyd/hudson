@@ -25,6 +25,11 @@ module.exports = {
       src: bower + 'modernizr/modernizr.js',
       dest: build + 'js',
       rename: 'modernizr.js'
+    },
+    html5shiv: {
+      src: bower + 'html5shiv/dist/html5shiv.min.js',
+      dest: build + 'js',
+      rename: 'html5.js'
     }
   },
 
