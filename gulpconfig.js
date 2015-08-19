@@ -33,6 +33,17 @@ module.exports = {
     }
   },
 
+  copy: {
+    js: {
+      src: [
+        src + 'js/color-scheme-control.js',
+        src + 'js/customize-preview.js',
+        src + 'js/keyboard-image-navigation.js'
+      ],
+      dest: build + 'js'
+    }
+  },
+
   browsersync: {
     files: [
       build + '/**',
