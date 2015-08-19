@@ -69,15 +69,58 @@ module.exports = {
   },
 
   stylesheets: {
-    src: [
-      src + 'style.css',
-      src + 'genericons/genericons.css',
-      src + 'assets/stylesheets/styles.scss'
-    ],
-    dest: build,
-    name: 'style.css',
-    autoprefixer: {
-      browsers: ['> 3%', 'last 2 versions', 'ie 9', 'ios 6', 'android 4']
+    files: {
+      style: {
+        src: [
+          src + 'styles.scss',
+          src + 'genericons/genericons.css'
+        ],
+        dest: build,
+        name: 'style.css',
+        autoprefixer: {
+          browsers: ['> 3%', 'last 2 versions', 'ie 9', 'ios 6', 'android 4']
+        }
+      },
+      rtl: {
+        src: [
+          src + 'rtl.scss'
+        ],
+        dest: build,
+        name: 'rtl.css',
+        autoprefixer: {
+          browsers: ['> 3%', 'last 2 versions', 'ie 9', 'ios 6', 'android 4']
+        }
+      },
+      ie: {
+        src: [
+          src + 'css/ie.scss'
+        ],
+        dest: build + 'css/',
+        name: 'ie.css',
+        autoprefixer: {
+          browsers: ['> 3%', 'last 2 versions', 'ie 9', 'ios 6', 'android 4']
+        }
+      },
+      ie7: {
+        src: [
+          src + 'css/ie7.scss'
+        ],
+        dest: build + 'css/',
+        name: 'ie7.css',
+        autoprefixer: {
+          browsers: ['> 3%', 'last 2 versions', 'ie 9', 'ios 6', 'android 4']
+        }
+      },
+      editor: {
+        src: [
+          src + 'css/editor-style.scss'
+        ],
+        dest: build + 'css/',
+        name: 'editor-style.css',
+        autoprefixer: {
+          browsers: ['> 3%', 'last 2 versions', 'ie 9', 'ios 6', 'android 4']
+        }
+      }
     },
     compiler: 'libsass',
     minify: {
