@@ -4,4 +4,4 @@ var gulp = require('gulp');
 gulp.task('default', ['build', 'watch']);
 
 // Build but do not watch
-gulp.task('build', ['bower', 'copy', 'images', 'javascripts', 'stylesheets', 'php', 'languages']);
+gulp.task('build', ['bower', 'copy', 'images', 'fonts', 'javascripts', 'stylesheets', 'php', 'languages']);
