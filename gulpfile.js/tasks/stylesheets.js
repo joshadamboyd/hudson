@@ -3,7 +3,7 @@ var gulp         = require('gulp'),
     plugins      = require('gulp-load-plugins')({ camelize: true }),
     autoprefixer = require('autoprefixer-core');
 
-var config = require('../../gulpconfig').stylesheets.files
+var config = require('../../gulpconfig').stylesheets
 
 gulp.task('stylesheets-style', function() {
   return gulp.src(config.style.src)
